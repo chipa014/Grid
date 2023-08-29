@@ -1,0 +1,5 @@
+@import "./HeadingGeneric.scss";
+
+.heading-2 {
+  @extend %heading;
+}
