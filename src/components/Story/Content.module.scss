@@ -1,0 +1,36 @@
+.content {
+  background-color: var(--color-grey-light-1);
+  grid-column: col-start 5 / full-end;
+
+  padding: 6rem 8vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: 0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  padding: 1.8rem 3rem;
+
+  cursor: pointer;
+
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+  }
+}
+
+.text {
+  font-size: 1.5rem;
+  font-style: italic;
+}

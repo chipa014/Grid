@@ -1,4 +1,7 @@
 // COLOR VARIABLES
+$color-primary: #c69963;
+//Note that this duplicated code is due to a Sass bug
+//rgb and rgba functions misinterpret CSS variables as a single value instead of their output
 :root {
   --color-primary: #c69963;
   --color-primary-dark: #b28451;
@@ -10,6 +13,8 @@
 
   --color-grey-dark-1: #54483a;
   --color-grey-dark-2: #6d5d4b;
+
+  --color-white: #fff;
 
   // FONT VARIABLES
   --font-primary: "Nunito", sans-serif;

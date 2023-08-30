@@ -2,7 +2,11 @@ import styles from "./Heading4.module.scss";
 
 const Heading4 = function (props) {
   return (
-    <h4 className={`${styles["heading-4"]} ${styles[props.color]}`}>
+    <h4
+      className={`${styles["heading-4"]} ${styles[props.color]} ${
+        props.className
+      }`}
+    >
       {props.children}
     </h4>
   );

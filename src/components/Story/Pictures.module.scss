@@ -1,0 +1,32 @@
+@import "../../index.scss";
+
+.pictures {
+  background-image: linear-gradient(
+      rgba($color-primary, 0.5),
+      rgba($color-primary, 0.5)
+    ),
+    //Weird Sass-variable clutch to work around a Sass bug
+    //Read more in /src/index.scss
+    url(../../resources/img/back.jpg);
+  grid-column: full-start / col-end 4;
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  align-items: center;
+}
+
+.img--1 {
+  width: 100%;
+  grid-column: 2 / span 4;
+  grid-row: 2 / span 4;
+  box-shadow: 0 2rem 5rem rgba(#000, 0.1);
+}
+
+.img--2 {
+  width: 115%;
+  grid-column: 4 / span 3;
+  grid-row: 4 / span 2;
+  z-index: 2;
+  box-shadow: 0 2rem 5rem rgba(#000, 0.2);
+}

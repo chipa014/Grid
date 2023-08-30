@@ -1,11 +1,13 @@
 import { Fragment } from "react";
+import Content from "./Content";
+import Pictures from "./Pictures";
 import styles from "./Story.module.scss";
 
 const Story = function () {
   return (
     <Fragment>
-      <div className={styles.pictures}>Pictures</div>
-      <div className={styles.content}>Content</div>
+      <Pictures />
+      <Content />
     </Fragment>
   );
 };
