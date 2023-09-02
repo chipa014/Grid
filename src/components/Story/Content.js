@@ -1,3 +1,4 @@
+import Button from "../UI/Button";
 import Heading2 from "../UI/Heading2";
 import Heading3 from "../UI/Heading3";
 
@@ -16,7 +17,7 @@ const Content = function () {
         distinctio necessitatibus pariatur voluptatibus. Quidem consequatur
         harum volupta!
       </p>
-      <button className={styles.btn}>Find your own home</button>
+      <Button>Find your own home</Button>
     </div>
   );
 };
