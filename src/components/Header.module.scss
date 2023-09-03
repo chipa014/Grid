@@ -11,7 +11,9 @@
   background-position: center;
 
   display: grid;
+  grid-template-rows: 1fr -webkit-min-content minmax(6rem, -webkit-min-content) 1fr;
   grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: minmax(-webkit-min-content, -webkit-max-content);
   grid-template-columns: minmax(min-content, max-content);
   justify-content: center;
   gap: 1.5rem;
@@ -41,6 +43,7 @@
 .seen-on {
   &__text {
     display: grid;
+    grid-template-columns: 1fr -webkit-max-content 1fr;
     grid-template-columns: 1fr max-content 1fr;
     align-items: center;
     gap: 1.5rem;
@@ -67,6 +70,7 @@
     img {
       max-height: 2.5rem;
       max-width: 100%;
+      -webkit-filter: brightness(70%);
       filter: brightness(70%);
     }
   }
