@@ -8,12 +8,19 @@
     //Weird Sass-variable clutch to work around a Sass bug
     //Read more in /src/index.scss
     url(../../resources/img/back.jpg);
+  background-size: cover;
+
   grid-column: full-start / col-end 4;
 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   align-items: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: full-start / full-end;
+    padding: 6rem;
+  }
 }
 
 .img--1 {
@@ -21,6 +28,12 @@
   grid-column: 2 / span 4;
   grid-row: 2 / span 4;
   box-shadow: 0 2rem 5rem rgba(#000, 0.1);
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / span 4;
+    grid-row: 1 / -1;
+    height: 100%;
+  }
 }
 
 .img--2 {
@@ -29,4 +42,9 @@
   grid-row: 4 / span 2;
   z-index: 2;
   box-shadow: 0 2rem 5rem rgba(#000, 0.2);
+
+  @media only screen and (max-width: $bp-medium) {
+    width: 100%;
+    grid-row: 1 / -1;
+  }
 }
