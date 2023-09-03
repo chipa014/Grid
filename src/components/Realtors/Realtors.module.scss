@@ -1,0 +1,20 @@
+.realtors {
+  background-color: var(--color-secondary);
+  grid-column: col-start 7 / full-end;
+  padding: 3rem;
+
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.list {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: min-content max-content;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 5vh;
+}

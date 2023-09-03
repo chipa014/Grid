@@ -19,8 +19,8 @@ const Footer = function () {
       </ul>
       <p className={styles.copyright}>
         Built by Alexander Trushin as an exercise is Jonas Schmedtmann's
-        "Advanced CSS and Sass" course. Design by Jonas Schmedtmann. Copyright
-        &copy; 2017 Jonas Schmedtmann.
+        "Advanced CSS and Sass" course. <br />
+        Design by Jonas Schmedtmann. Copyright &copy; 2017 Jonas Schmedtmann.
       </p>
     </footer>
   );
