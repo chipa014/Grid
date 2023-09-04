@@ -13,7 +13,7 @@ const Header = function () {
   return (
     <header className={styles.header}>
       <img
-        src={require("../resources/img/logo.png").default}
+        src={require("../resources/img/logo.png")}
         alt="nexter logo"
         className={styles.logo}
       />
@@ -24,7 +24,7 @@ const Header = function () {
       <div className={styles["seen-on__logos"]}>
         {seenOnLogos.map((company) => (
           <img
-            src={require(`../resources/img/logo-${company.src}.png`).default}
+            src={require(`../resources/img/logo-${company.src}.png`)}
             alt={`Seen on ${company.name}`}
             key={company.src}
           />

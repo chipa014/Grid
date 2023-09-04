@@ -23,7 +23,7 @@ const HomeCard = function (props) {
   return (
     <div className={styles.card}>
       <img
-        src={require(`../../resources/img/${data.imgSrc}`).default}
+        src={require(`../../resources/img/${data.imgSrc}`)}
         alt={data.name}
         className={styles.img}
       />

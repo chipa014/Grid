@@ -5,13 +5,13 @@ const Pictures = function () {
     <div className={styles.pictures}>
       <img
         className={styles["img--1"]}
-        src={require("../../resources/img/story-1.jpeg").default}
+        src={require("../../resources/img/story-1.jpeg")}
         // src="../../resources/img/story-1.jpeg"
         alt="Couple with their new house"
       />
       <img
         className={styles["img--2"]}
-        src={require("../../resources/img/story-2.jpeg").default}
+        src={require("../../resources/img/story-2.jpeg")}
         alt="New house"
       />
     </div>

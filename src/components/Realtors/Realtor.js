@@ -9,7 +9,7 @@ const Realtor = function (props) {
   return (
     <Fragment>
       <img
-        src={require(`../../resources/img/${data.src}`).default}
+        src={require(`../../resources/img/${data.src}`)}
         alt={`${data.name}, a realtor`}
         className={styles.img}
       />

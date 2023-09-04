@@ -11,7 +11,7 @@ const Gallery = function () {
           key={i}
         >
           <img
-            src={require(`../../resources/img/gal-${i + 1}.jpeg`).default}
+            src={require(`../../resources/img/gal-${i + 1}.jpeg`)}
             alt="House"
             className={styles.img}
           />
