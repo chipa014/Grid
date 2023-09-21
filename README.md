@@ -1,6 +1,6 @@
 ## nexter
 
-A realtor agency landing page. This project was built as a part of Jonas Schmedtmann's "Advanced CSS and Sass" course. See the final result: https://chipa014-nexter.netlify.app/
+A landing page for a realtor agency. This project was built as a part of Jonas Schmedtmann's "Advanced CSS and Sass" course. See the final result: https://chipa014-nexter.netlify.app/
 
 ### Notes
 
